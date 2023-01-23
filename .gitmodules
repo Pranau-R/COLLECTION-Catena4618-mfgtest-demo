@@ -31,3 +31,12 @@
 [submodule "sketches/catena4618-mfgtest"]
 	path = sketches/catena4618-mfgtest
 	url = git@gitlab-x.mcci.com:Pranau-R/catena4618-mfgtest.git
+[submodule "libraries/Catena-mcciadk"]
+	path = libraries/Catena-mcciadk
+	url = git@github.com:mcci-catena/Catena-mcciadk.git
+[submodule "libraries/arduino-lorawan"]
+	path = libraries/arduino-lorawan
+	url = git@github.com:mcci-catena/arduino-lorawan.git
+[submodule "libraries/MCCI_FRAM_I2C"]
+	path = libraries/MCCI_FRAM_I2C
+	url = git@github.com:mcci-catena/MCCI_FRAM_I2C.git

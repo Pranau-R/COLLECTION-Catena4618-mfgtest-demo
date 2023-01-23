@@ -58,9 +58,9 @@ function _setProject {
 # result is version as either x.y.z-N or x.y.z (if pre-release tag is -0)
 _debug "Override _getversion"
 function _getversion {
-    sed -n -e '/^constexpr std::uint32_t kAppVersion /s/^.*makeVersion[ \t]*([ \t]*\([0-9]*\)[ \t]*,[ \t]*\([0-9]*\)[ \t]*,[ \t]*\([0-9]*\)[ \t]*,[ \t]*\([0-9]*\)[ \t]*).*/\1.\2.\3_pre\4/p' \
-           -e '/^constexpr std::uint32_t kAppVersion /s/^.*makeVersion[ \t]*([ \t]*\([0-9]*\)[ \t]*,[ \t]*\([0-9]*\)[ \t]*,[ \t]*\([0-9]*\)[ \t]*).*/\1.\2.\3/p' "$1" |
-        sed -e 's/_pre0$//'
+    sed -n \
+        -e 's/^static const char sVersion\[] = "\(.*\)";$/\1/p' \
+        "$1"
 }
 
 _doBuild "$@"
