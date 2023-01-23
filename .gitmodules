@@ -1,0 +1,33 @@
+[submodule "extras/dfu-util"]
+	path = extras/dfu-util
+	url = git@gitlab-x.mcci.com:vendor/dfu-util/dfu-util.git
+[submodule "extras/tools-build-with-cli"]
+	path = extras/tools-build-with-cli
+	url = git@github.com:mcci-catena/tools-build-with-cli.git
+[submodule "extras/Arduino_Core_STM32"]
+	path = extras/Arduino_Core_STM32
+	url = git@github.com:mcci-catena/Arduino_Core_STM32.git
+[submodule "extras/bootloader"]
+	path = extras/bootloader
+	url = git@github.com:mcci-catena/bootloader.git
+[submodule "libraries/Catena-Arduino-Platform"]
+	path = libraries/Catena-Arduino-Platform
+	url = git@github.com:mcci-catena/Catena-Arduino-Platform.git
+[submodule "libraries/arduino-lmic"]
+	path = libraries/arduino-lmic
+	url = git@github.com:mcci-catena/arduino-lmic.git
+[submodule "libraries/arduinounit"]
+	path = libraries/arduinounit
+	url = git@github.com:mcci-catena/arduinounit.git
+[submodule "libraries/catena-mfgtest"]
+	path = libraries/catena-mfgtest
+	url = git@gitlab-x.mcci.com:mcci/hardware/catena/mfg/catena-mfgtest.git
+[submodule "libraries/MCCI-Catena-SHT3x"]
+	path = libraries/MCCI-Catena-SHT3x
+	url = git@github.com:mcci-catena/MCCI-Catena-SHT3x.git
+[submodule "libraries/mcci_ltr_329als"]
+	path = libraries/mcci_ltr_329als
+	url = git@github.com:mcci-catena/mcci_ltr_329als.git
+[submodule "sketches/catena4618-mfgtest"]
+	path = sketches/catena4618-mfgtest
+	url = git@gitlab-x.mcci.com:Pranau-R/catena4618-mfgtest.git
